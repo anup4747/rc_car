@@ -1,0 +1,71 @@
+# ============================
+# ROS2 Workspace
+# ============================
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+ros2_ws/**/.pytest_cache/
+ros2_ws/**/__pycache__/
+ros2_ws/**/*.pyc
+
+# Ignore rosdep sources cache
+.ros/
+.rosdep/
+
+# ============================
+# Python Backend (FastAPI + aiortc)
+# ============================
+backend/**/__pycache__/
+backend/**/.pytest_cache/
+backend/**/*.pyc
+backend/venv/
+backend/.env
+backend/env/
+backend/.uvicorn/
+backend/*.log
+
+# aiortc temporary files
+backend/**/*.wav
+backend/**/*.webm
+backend/**/*.tmp
+
+# ============================
+# Next.js Frontend
+# ============================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/package-lock.json
+frontend/.env.local
+frontend/.env
+frontend/.vercel/
+
+# ============================
+# Frontend old static html
+# ============================
+frontend/index.html
+
+# ============================
+# OS / Editor Junk Files
+# ============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ============================
+# Git / Workspace
+# ============================
+*.log
+*.tmp
+*.bak
+
+# ============================
+# Tailscale
+# ============================
+tailscale.state
+tailscale.ipnstore
+
